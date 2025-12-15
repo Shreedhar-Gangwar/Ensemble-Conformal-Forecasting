@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Ensemble XGBoost with Conformal Prediction for Solar Irradiance and Wind Speed Forecasting"
+message: "If you use this code in academic work, please cite it as below."
+type: software
+authors:
+  - family-names: Gangwar
+    given-names: Shreedhar
+    email: shreedhar@email.com
+repository-code: "https://github.com/Shreedhar-Gangwar/ensemble-conformal-forecasting"
+license: MIT
+keywords:
+  - ensemble learning
+  - conformal prediction
+  - solar irradiance forecasting
+  - wind speed forecasting
+  - uncertainty quantification
+  - time series
+year: 2025
