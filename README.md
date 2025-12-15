@@ -12,7 +12,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. Put `Agra_dataset.csv` into `data/sample/` (or pass the path to `--data-path` in `configs/default.yaml`).
+2. Put `your_dataset.csv` into `data/sample/` (or pass the path to `--data-path` in `configs/default.yaml`).
 
 3. Reproduce the published experiment:
 
