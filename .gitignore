@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+*.pyc
+*.pkl
+*.npz
+*.sqlite3
+outputs/
+.env
+.ipynb_checkpoints/
+data/Agra_dataset.csv

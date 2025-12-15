@@ -1,0 +1,35 @@
+seed: 42
+data_path: data/Agra_dataset.csv
+targets:
+  - ALLSKY_SFC_SW_DWN
+  - WS50M
+lags: [1,2,3,6,12,24]
+roll_windows: [6,12,24,48]
+ensemble_size: 7
+scaling_factor: 1.15
+alpha: 0.05
+split_ratio: 0.8
+calib_ratio_of_train: 0.2
+plot_n_points: 200
+solar_params:
+  n_estimators: 363
+  max_depth: 7
+  learning_rate: 0.026795561710426293
+  subsample: 0.7491029794990068
+  colsample_bytree: 0.9786660186576371
+  reg_alpha: 0.2787219260896555
+  reg_lambda: 0.06512891065430851
+  tree_method: hist
+  n_jobs: -1
+  verbosity: 0
+wind_params:
+  n_estimators: 204
+  max_depth: 10
+  learning_rate: 0.03981542127309022
+  subsample: 0.725505267028803
+  colsample_bytree: 0.9985654722085591
+  reg_alpha: 0.166158932608926
+  reg_lambda: 0.08765813395564175
+  tree_method: hist
+  n_jobs: -1
+  verbosity: 0
