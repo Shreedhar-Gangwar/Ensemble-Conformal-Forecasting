@@ -15,7 +15,7 @@ np.random.seed(42)
 # -------------------------
 # 1) Load & preprocess
 # -------------------------
-data = pd.read_csv('Agra_dataset.csv')
+data = pd.read_csv('your_dataset.csv')
 
 # rename if present
 rename_map = {}
